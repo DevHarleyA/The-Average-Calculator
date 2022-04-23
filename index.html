@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>4 Button Calculator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>The Average Calculator</h1>
+            <p>No bells and whistles here, folks!</p>
+            <p>Plug in two numbers. Then add, subtract, multiply, or divide them!</p>
+        </header>
+
+        <main>
+            <form action="#">
+                <label for="firstNumber">First Number</label>
+                <input id="firstNumber" type="text">
+                <label for="secondNumber">Second Number</label>
+                <input id="secondNumber" type="text">
+            </form>
+        </main>
+
+        <h3 id="resultsHere"></h3>
+
+        <section>
+            <button id="addition" class="btn">+ (add)</button>
+            <button id="subtraction" class="btn">- (subtract)</button>
+            <button id="multiplication" class="btn">* (multiply)</button>
+            <button id="division" class="btn">/ (divide)</button>
+        </section>
+        <section>
+            <button id="zeroMe">Reset to Zero (0)</button>
+        </section>
+
+        <img src="assets/images/dogs.jpg" alt="dog with glasses" class="doggo">
+        <p class="doggoP">Doggo provides <em>quality care</em>. Rest assure he is double triple checking the maths!</p>
+
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

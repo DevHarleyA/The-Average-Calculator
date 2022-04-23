@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Acme', Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+h1 {
+    font-size: 4rem;
+    text-decoration: underline overline #FF3028;
+}
+
+header p {
+    font-size: 2rem;
+}
+
+input {
+    width: 10%;
+}
+
+label {
+    font-size: 2rem;
+    color: palevioletred;
+}
+
+h3 {
+    font-size: 3rem;
+    margin: 1%;
+}
+
+.doggo {
+    border: 4mm ridge darkred;
+    height: 255px;
+    margin: .5%;
+}
+
+.doggoP {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+button {
+    color: mistyrose;
+    background: slategray;
+    padding: 1%;
+    margin: 1%;
+    font-size: 1.5rem;
+}
